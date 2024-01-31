@@ -1,0 +1,6 @@
+{
+    "version": "2",
+    "name": "tech-code",
+    "builds": [{"src": "server.js", "use": "@varcel/node"}],
+    "routes": [{"sec": "/(.*)", "dest": "/server.js"}]
+}
